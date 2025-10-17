@@ -17,7 +17,6 @@ public class FileHandler {
             System.out.println("✅ Data written to myFile successfully.");
         } catch (IOException e) {
             System.out.println("Error writing to file: " + e.getMessage());
-            e.printStackTrace();
         }
 
         try (
@@ -31,7 +30,6 @@ public class FileHandler {
             System.out.println("✅ Data copied from myFile to ReadFile successfully.");
         } catch (IOException e) {
             System.out.println("Error copying file: " + e.getMessage());
-            e.printStackTrace();
         }
     }
 }
