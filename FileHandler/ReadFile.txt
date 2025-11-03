@@ -1,0 +1,18 @@
+byte streams
+fileInputStream
+fileOutputStream
+BufferedInputStream
+BufferedOutputStream
+
+char streams
+fileReader
+FileWriter
+BufferedReader
+BufferedWriter
+
+primitive data
+DataInputStream
+DataOutputStream
+
+objects
+ObjectInputS

@@ -1,4 +1,9 @@
 package Bank;
 
-public class Person {
+import java.util.Date;
+
+public class Person{
+    private int id;
+    private String name;
+    private Date dob;
 }
