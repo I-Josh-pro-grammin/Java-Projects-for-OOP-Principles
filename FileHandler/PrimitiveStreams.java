@@ -35,8 +35,29 @@ package FileHandler;//package FileHandler;
 //    }
 //}
 
-public class PrimitiveStreams {
-  public static void main(String[] args) {
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
+public class PrimitiveStreams implements Comparator {
+//  public int compare(Comp o1, Comp o2) {
+//    return o1.getAge() - o2.getAge();
+//  }
+
+  @Override
+  public int compare(Object o1, Object o2) {
+    return 0;
+  }
+
+  public static void main(String[] args) {
+    ArrayList<String> arr = new ArrayList();
+    arr.add("A");
+    arr.add("B");
+    arr.add("C");
+    arr.add("D");
+
+    Collections.sort(arr);
+
+    System.out.println(arr);
   }
 }

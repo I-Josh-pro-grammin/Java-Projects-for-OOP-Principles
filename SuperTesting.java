@@ -1,28 +1,28 @@
-class Vehicle {
-    public Vehicle() {
-        System.out.println("Vehicle created");
-    }
-}
-
-class Car extends Vehicle {
-    public Car() {
-        super();
-        System.out.println("Car created");
-    }
-}
-
-class Person {
-    public void displayInfo() {
-       System.out.println("This is the person");
-    }
-}
-
-class Student extends Person {
-    public Student() {
-        super();
-        displayInfo();
-    }
-}
+//class Vehicle {
+//    public Vehicle() {
+//        System.out.println("Vehicle created");
+//    }
+//}
+//
+//class Car extends Vehicle {
+//    public Car() {
+//        super();
+//        System.out.println("Car created");
+//    }
+//}
+//
+//class Person {
+//    public void displayInfo() {
+//       System.out.println("This is the person");
+//    }
+//}
+//
+//class Student extends Person {
+//    public Student() {
+//        super();
+//        displayInfo();
+//    }
+//}
 
 public class SuperTesting {
     public static void main(String[] args) {

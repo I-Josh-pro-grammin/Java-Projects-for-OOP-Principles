@@ -1,5 +1,3 @@
-package Collections;
-
 public class Printer<T extends  Number>{
     T valueToPrint;
 

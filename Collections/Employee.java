@@ -1,4 +1,3 @@
-package Collections;
 
 public class Employee implements Comparable<Employee> {
     private String firstName;

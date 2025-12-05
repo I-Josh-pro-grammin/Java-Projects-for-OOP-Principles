@@ -1,6 +1,5 @@
-package Collections;
 
-import java.util.Arrays;
+// import java.util.Arrays;
 import java.util.List;
 
 public class PrinterMain{
@@ -12,6 +11,6 @@ public class PrinterMain{
         Printer<Integer> printer = new Printer<>(5);
         printer.print();
 
-        List<Double> numbers = Arrays.asList(1.5, 2.4, 3.3, 4.3, 5.2, 6.5, 7.5, 8.6, 9.2, 100.5);
+        // List<Double> numbers = Arrays.asList(1.5, 2.4, 3.3, 4.3, 5.2, 6.5, 7.5, 8.6, 9.2, 100.5);
     }
 }
